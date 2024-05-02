@@ -17,7 +17,11 @@ body{
     height: 100vh;
     color: white;
 }
-
+.my_bg_blue{
+    background-color: #1b72e8;
+    color: white;
+    width: calc(100vw - 70px);
+}
 /* media  */
 @media all and (min-width: 1200px){
     .my_sidebar{
