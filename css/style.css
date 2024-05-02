@@ -1,0 +1,18 @@
+.my_logo{
+    width: 5%;
+}
+.my_search{
+    width: 70%;
+}
+.my_bell{
+    width: 5%;
+}
+.my_sidebar{
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #0e263d;
+    width: 100px;
+    height: 100vh;
+}
+.my_sidebar > i{
+    color: white;
+}
