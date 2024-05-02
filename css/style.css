@@ -17,10 +17,20 @@ body{
     height: 100vh;
     color: white;
 }
+.vw-main{
+    width: calc(100vw - 70px);
+    height: 100vh;
+}
 .my_bg_blue{
     background-color: #1b72e8;
     color: white;
-    width: calc(100vw - 70px);
+}
+.my_dark_btn{
+    background-color: #165bba;
+    border-radius: 1rem;
+}
+.bg_green{
+    background-color: #198754;
 }
 /* media  */
 @media all and (min-width: 1200px){
