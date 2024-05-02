@@ -23,4 +23,13 @@ body{
     .my_sidebar{
         width: 200px;
     }
+    .my_logo{
+        width: 10%;
+    }
+    .my_search{
+        width: 60%;
+    }
+    .my_bell{
+        width: 10%;
+    }
 }
