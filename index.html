@@ -19,7 +19,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./img/mobile-logo.png" alt="" width="50" height="50">
-                    <span class="d-none d-xl-inline">boolean</span>
+                    <span class="d-none d-lg-inline">boolean</span>
                 </a>
                 <form class="d-flex col" id="my-form">
                     <span class="input-group-text border-end-0" id="basic-addon1">
@@ -28,7 +28,7 @@
                     <input class="form-control me-2 border-start-0" type="search" placeholder="Search" aria-label="Search">
                 </form>
                 <div class="d-flex align-items-center">
-                    <div class="my_head_icons d-none d-xl-block me-2">
+                    <div class="my_head_icons d-none d-lg-block me-2">
                         <i class="fa-solid fa-list-ul me-2"></i>
                         <i class="fa-solid fa-circle-question me-2"></i>
                         <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -55,19 +55,19 @@
             <section class="d-flex flex-column align-items-center justify-content-between  py-5 my_sidebar">
                 <div class="d-flex flex-column my_sidebar_icons">
                     <div>
-                        <i class="fa-solid fa-house mb-3"></i> <span class="d-none d-xl-inline">home</span>
+                        <i class="fa-solid fa-house mb-3"></i> <span class="d-none d-lg-inline">home</span>
                     </div>
                     <div>
-                        <i class="fa-solid fa-chart-simple mb-3"></i> <span class="d-none d-xl-inline">stats</span>
+                        <i class="fa-solid fa-chart-simple mb-3"></i> <span class="d-none d-lg-inline">stats</span>
                     </div>
                     <div>
-                        <i class="fa-solid fa-signal"></i> <span class="d-none d-xl-inline">signals</span>
+                        <i class="fa-solid fa-signal"></i> <span class="d-none d-lg-inline">signals</span>
                     </div>
                     
                 </div>
                 <div class="d-flex flex-column">
                     <div>
-                        <i class="fa-solid fa-gear"></i> <span class="d-none d-xl-inline">admin</span>
+                        <i class="fa-solid fa-gear"></i> <span class="d-none d-lg-inline">admin</span>
                     </div>
                 </div>
             </section>
@@ -76,23 +76,23 @@
                 <header class="my_bg_blue py-4 mb-4">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-12 col-md-3 order-md-2 align-middle">
+                            <div class="col-12 col-md-2 order-md-2 align-middle">
                                 <span class="align-middle">nuovo studente</span>
-                                <i class="fa-solid fa-square-plus fs-3 align-middle"></i>
+                                <a class="text-light" href="#"><i class="fa-regular fa-square-plus fs-3 align-middle"></i></a>    
                             </div>
-                            <div class="col-12 col-md-6">
+                            <div class="col-12 col-md-8">
                                 <h1>boolean</h1>
                                 <div class="d-flex">
                                     <span class="my_dark_btn px-2 me-1">piano blaze</span> 
                                     <span class="my_dark_btn px-2 me-1">3 app</span> 
                                     <i class="fa-solid fa-angles-right align-self-center me-1"></i> 
-                                    <span class="d-xl-none my_dark_btn px-3 me-1">&plus;</span> 
-                                    <span class="my_dark_btn px-2 me-1 d-none d-xl-block">boolean mobile app</span> 
-                                    <span class="my_dark_btn px-2 me-1 d-none d-xl-block">boolean web app</span> 
-                                    <span class="my_dark_btn px-2 me-1 d-none d-xl-block">boolean blog app</span> 
+                                    <span class="d-lg-none my_dark_btn px-3 me-1">&plus;</span> 
+                                    <span class="my_dark_btn px-2 me-1 d-none d-lg-block">boolean mobile app</span> 
+                                    <span class="my_dark_btn px-2 me-1 d-none d-lg-block">boolean web app</span> 
+                                    <span class="my_dark_btn px-2 me-1 d-none d-lg-block">boolean blog app</span> 
                                 </div>
                             </div>
-                            <div class="col-12 col-md-3 order-md-1">
+                            <div class="col-12 col-md-2 order-md-1">
                                 <p>studenti online negli ultimi 30 minuti</p>
                                 <span class="fs-3">125</span>
                             </div>
@@ -105,7 +105,7 @@
                         <div class="container">
                             <div class="row">
                                 <!-- prossime classi  -->
-                                <div class="col-12 mb-3"> 
+                                <div class="col-12 col-lg-8 mb-3"> 
                                     <div class="card" style="width: 100%;">
                                         <div class="card-header p-3 fs-3">prossime classi</div>
                                         <div class="p-3">
@@ -229,7 +229,7 @@
                                     </div>
                                 </div>
                                 <!-- F.A.Q  -->
-                                <div class="col-12 mb-3">
+                                <div class="col-12 col-lg-8 mb-3">
                                     <div class="card" style="width: 100%;">
                                         <div class="card-header p-3 fs-3">f.a.q.</div>
                                         <div class="p-3">
@@ -271,10 +271,11 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- todo list -->
-                                <div class="col-12 mb-3">
+                                <div class="col-12 col-lg-4 mb-3">
                                     <div class="card" style="width: 100%;">
                                         <div class="card-header p-3 fs-3">todo</div>
                                         <div class="p-3">
@@ -292,6 +293,24 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- grafico  -->
+                                <div class="col-12 col-lg-4 mb-3">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="./img/stats.jpeg" class="card-img-top" alt="stats">
+                                        <div class="card-body">
+                                            <h5 class="card-title">utenti attivi</h5>
+                                            <p class="card-text">lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">gennaio:1200</li>
+                                            <li class="list-group-item">febbraio:800</li>
+                                            <li class="list-group-item">marzo:1500</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="card-link">visualizza report approfondito</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </main>
@@ -300,7 +319,7 @@
         </div>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLlg5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 </body>

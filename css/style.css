@@ -24,7 +24,7 @@ body{
     background-color: #198754;
 }
 /* media  */
-@media all and (min-width: 1200px){
+@media all and (min-width: 992px){
     .my_sidebar{
         width: 200px;
     }
